@@ -1,0 +1,6 @@
+/Pipfile
+/Pipfile.lock
+.env
+__pycache__/
+.idea/
+index.json

@@ -8,8 +8,8 @@ from llama_index import SimpleDirectoryReader, GPTSimpleVectorIndex, LLMPredicto
 class ExtDataIndex:
     def __init__(self):
         self.data_loc = 'data'
-        self.model_name = "text-davinci-003"
-        self.index_name = "index.json"
+        self.model_name = "gpt-3.5-turbo"
+        self.index_name = f"index_{self.model_name}.json"
         self.root = os.path.dirname(os.path.abspath(__file__))
         self.override_latest_index_check = os.environ.get('OVERRIDE_INDEX_CHECK', None)
         if self.override_latest_index_check is not None:

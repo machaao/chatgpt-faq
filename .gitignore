@@ -3,4 +3,6 @@
 .env
 __pycache__/
 .idea/
-index.json
+index_*.json
+/data/*
+/data/data.txt

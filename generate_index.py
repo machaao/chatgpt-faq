@@ -72,7 +72,7 @@ class ExtDataIndex:
         # set maximum chunk overlap
         max_chunk_overlap = 20
         prompt_helper = PromptHelper(max_input_size, num_output, max_chunk_overlap)
-        llm_predictor = LLMPredictor(llm=OpenAI(temperature=0, model_name="text-davinci-003"))
+        llm_predictor = LLMPredictor(llm=OpenAI(temperature=0, model_name=self.model_name))
 
         documents = SimpleDirectoryReader(f'{self.data_loc}').load_data()
 

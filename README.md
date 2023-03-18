@@ -1,4 +1,4 @@
-# OpenAI powered FAQ Chatbot
+# AI powered FAQ Chatbot
 Build your own ChatGPT powered faq / knowledge base chatbot that can infer and answer queries based on the information provided via an external data source 
 ## Requirements for running it locally on laptop ##
 

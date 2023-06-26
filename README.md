@@ -34,6 +34,7 @@ OVERRIDE_INDEX_CHECK=False
  retrain your index when you update your data source
 
 ### Add your data sources in the ```data``` directory
+* It can be of any type (.txt, .pdf etc.) and may contain multiple files. Its totally flexible
 
 ### Run your chatbot app on your local server
 ```bash

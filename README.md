@@ -33,6 +33,8 @@ OVERRIDE_INDEX_CHECK=False
 * Set OVERRIDE_INDEX_CHECK to ```True``` if you want the bot to automatically 
  retrain your index when you update your data source
 
+### Add your data sources in the ```data``` directory
+
 ### Run your chatbot app on your local server
 ```bash
 python app.py
